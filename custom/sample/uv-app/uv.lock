@@ -1,0 +1,19 @@
+version = 1
+revision = 2
+requires-python = ">=3.10.3"
+
+[[package]]
+name = "minimum"
+version = "0.1"
+source = { directory = "../../minimum" }
+
+[[package]]
+name = "uv-app"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "minimum" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "minimum", directory = "../../minimum" }]
