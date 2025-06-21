@@ -1,6 +1,8 @@
 # cookiecutter-pypackageによるテンプレート
 
-## 作成方法
+## 通常のテンプレート
+
+<https://github.com/audreyfeldroy/cookiecutter-pypackage>
 
 ```bash
 uv pip install -U cookiecutter
@@ -41,4 +43,29 @@ cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
     5 - GNU General Public License v3
     6 - Not open source
     Choose from [1/2/3/4/5/6] (1): 6
+```
+
+## jacebrowning/template-python によるテンプレート
+
+<https://github.com/jacebrowning/template-python?tab=readme-ov-file>
+
+```bash
+(python-package-templates) bash>~/python-package-templates/cookiecutter$ cookiecutter gh:jacebrowning/template-python -f
+
+  [1/11] full_name (Your Name): Kuroki-g
+  [2/11] email (you@yourdomain.com): 64629990+Kuroki-g@users.noreply.github.com
+  [3/11] github_username (jacebrowning): Kuroki-g
+  [4/11] github_repo (template-python-demo): 
+  [5/11] default_branch (main): 
+  [6/11] project_name (TemplateDemo): 
+  [7/11] package_name (demo): 
+  [8/11] project_short_description (Sample project generated from Jace's Python Template.): 
+  [9/11] python_major_version (3): 
+  [10/11] python_minor_version (11): 
+  [11/11] Select license
+    1 - MIT
+    2 - Apache-2.0
+    3 - AGPL-3.0-only
+    4 - Unlicense
+    Choose from [1/2/3/4] (1): 4
 ```
