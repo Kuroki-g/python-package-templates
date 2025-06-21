@@ -29,5 +29,3 @@ cd pyscaffold
 # NOTE: gitレポジトリの中だと警告がでるため、--forceオプションで作成
 putup my_project --force
 ```
-
-
